@@ -16,7 +16,7 @@ public class contadorPalabras
                 if (!linea.trim().isEmpty()) { // ignorar líneas vacías
                     String[] palabras = linea.trim().split("\\s+"); // separar por uno o más espacios
                     totalPalabras += palabras.length;
-                    System.out.println("Palabras en la línea: " + palabras.length + " | Línea: " + linea);
+                    System.out.println("Palabras en la línea: " + palabras.length + " , Línea: " + linea);
                 }
             }
 
